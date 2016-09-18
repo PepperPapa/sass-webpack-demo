@@ -24,5 +24,4 @@ Cannot download "https://github.com/sass/node-sass/releases/download/v3.10.0/win
 win32-ia32-46目录则自行创建(本人使用的系统为win7 32位系统，需根据系统情况变化)。
 4. cd到nodes-sass根目录，执行npm install则可以安装成功。
 
-# 2. 由于示例非常简单，直接看源码即可，terminal下执行webpack命令会生成bundle.js
-，打开index.html文件后可以看到页面背景颜色被改变，说明工作正常。
+# 2. 由于示例非常简单，直接看源码即可，terminal下执行webpack命令会生成bundle.js，打开index.html文件后可以看到页面背景颜色被改变，说明工作正常。
