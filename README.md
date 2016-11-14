@@ -7,8 +7,9 @@
 * style-loader --将css style插入html页面
 * sass-loader --read sass file(.scss)
 * node-sass --sass-loader依赖node-sass    
-> npm install webpack css-loader style-loader sass-loader node-sass --save-dev   
-
+```
+$ npm install webpack css-loader style-loader sass-loader node-sass --save-dev   
+```
 
 > 注意：
 node-sass安装可能会出现如下错误：
