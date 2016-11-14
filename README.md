@@ -41,6 +41,6 @@ $ npm install -g cnpm --registry=https://registry.npm.taobao.org
 * sass-loader --read sass file(.scss)
 * node-sass --sass-loader依赖node-sass    
 ``` 
-cnpm install webpack css-loader style-loader sass-loader node-sass --save-dev
+$ cnpm install webpack css-loader style-loader sass-loader node-sass --save-dev
 ```
 > 通过cnpm安装node-sass不会出现错误
