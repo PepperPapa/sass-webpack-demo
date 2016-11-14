@@ -25,3 +25,17 @@ win32-ia32-46目录则自行创建(本人使用的系统为win7 32位系统，�
 4. cd到nodes-sass根目录，执行npm install则可以安装成功。
 
 # 2. 由于示例非常简单，直接看源码即可，terminal下执行webpack命令会生成bundle.js，打开index.html文件后可以看到页面背景颜色被改变，说明工作正常。
+
+# 3. cpm在国内下载包是非常慢的，起始可以使用cnpm来代替npm命令（该步骤是步骤1的替代选项，国内推荐）
+> cnpm是阿里团队推出的工具，通过淘宝镜像进行安装，速度非常快
+1. 首先需要安装cnpm：
+` $ npm install -g cnpm --registry=https://registry.npm.taobao.org
+
+2. 通过cnpm安装的依赖包：
+* webpack --打包工具
+* css-loader --read css file
+* style-loader --将css style插入html页面
+* sass-loader --read sass file(.scss)
+* node-sass --sass-loader依赖node-sass    
+` cnpm install webpack css-loader style-loader sass-loader node-sass --save-dev
+> 通过cnpm安装node-sass不会出现错误
